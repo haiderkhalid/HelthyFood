@@ -212,3 +212,87 @@ header {
     opacity: 1;
     transform: scale(1);
 }
+
+
+/* ------------------------------------- */
+/* SECTION DOWNLOAD */
+/* ------------------------------------- */
+
+.download-row {
+    display: flex;
+}
+
+.mobile,
+.features {
+    flex: 1;
+}
+
+.mobile {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.mobile img {
+    width: 600px;
+    height: auto;
+    transform: rotate(20deg) translateX(-100px);
+}
+
+.features {
+    margin-top: 90px;
+    margin-right: -30px;
+}
+
+.single-feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.single-feature:nth-child(1) {
+    margin-right: -80px;
+}
+
+.single-feature:nth-child(2) {
+    margin-right: -40px;
+}
+
+.single-feature .num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #0d8d6c;
+    border-radius: 50%;
+}
+
+.single-feature .feature-text {
+    width: 60%;
+    margin-right: 20px;
+    font-size: 110%;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+.features .download-btns {
+    margin-top: 60px;
+    margin-right: 50px;
+    display: flex;
+}
+
+.download-btns a {
+    display: block;
+    width: 120px;
+    height: 50px;
+}
+
+.download-btns a:first-child {
+    margin-left: 30px;
+}
+
+.download-btns img {
+    width: 100%;
+    height: 100%;
+}
