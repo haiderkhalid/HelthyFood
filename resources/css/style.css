@@ -218,6 +218,10 @@ header {
 /* SECTION DOWNLOAD */
 /* ------------------------------------- */
 
+.section-download {
+    background-color: #f1f2f6;
+}
+
 .download-row {
     display: flex;
 }
@@ -295,4 +299,52 @@ header {
 .download-btns img {
     width: 100%;
     height: 100%;
+}
+
+
+/* ------------------------------------- */
+/* SECTION CITIES */
+/* ------------------------------------- */
+
+.cities {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.city {
+    width: 22.5%;
+}
+
+.city img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.city h3 {
+    margin-bottom: 20px;
+}
+
+.city ul {
+    list-style: none;
+}
+
+.city li {
+    margin-bottom: 10px;
+    font-size: 110%;
+
+    display: flex;
+    align-items: center;
+}
+
+.city ion-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    fill: #10ac84;
+}
+
+.city a {
+    color: #10ac84;
 }
